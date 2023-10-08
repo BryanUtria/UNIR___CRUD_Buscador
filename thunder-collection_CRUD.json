@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "CRUD",
+    "dateExported": "2023-07-05T10:37:57.649Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "03fcbb96-becd-45b3-8a10-5d6b448b9714",
+            "colId": "240a4cd5-9a1a-4a86-add6-3c52e71bada2",
+            "containerId": "",
+            "name": "Crear Usuario",
+            "url": "http://localhost:8080/usuarios",
+            "method": "POST",
+            "sortNum": 5000,
+            "created": "2023-07-04T02:29:12.232Z",
+            "modified": "2023-07-05T03:59:49.119Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Javier\",\n  \"lastName\":\"Noseelapellido\",\n  \"age\":\"38\",\n  \"email\":\"javier@gmail.com\",\n  \"numberPhone\":\"3059043034\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3ce8dcda-4a11-4666-96d2-7c8cadd6008e",
+            "colId": "240a4cd5-9a1a-4a86-add6-3c52e71bada2",
+            "containerId": "",
+            "name": "Listar Usuarios",
+            "url": "http://localhost:8080/usuarios",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-07-04T02:28:06.079Z",
+            "modified": "2023-07-04T10:13:39.996Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d5f06708-6aad-41d0-8766-c1a009189691",
+            "colId": "240a4cd5-9a1a-4a86-add6-3c52e71bada2",
+            "containerId": "",
+            "name": "Consultas",
+            "url": "http://localhost:8080/usuarios/javier",
+            "method": "GET",
+            "sortNum": 12500,
+            "created": "2023-07-04T10:13:55.119Z",
+            "modified": "2023-07-05T04:01:19.195Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "24980cf0-f35e-4777-9a35-db0d0727506b",
+            "colId": "240a4cd5-9a1a-4a86-add6-3c52e71bada2",
+            "containerId": "",
+            "name": "Actualizar Usuario",
+            "url": "http://localhost:8080/usuarios/5beacc29-48be-414b-bbab-d37e52e044c3",
+            "method": "PUT",
+            "sortNum": 15000,
+            "created": "2023-07-04T02:59:10.914Z",
+            "modified": "2023-07-05T04:00:34.279Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Javier\",\n  \"lastName\":\"asdsadsad\",\n  \"age\":\"28\",\n  \"email\":\"Javier@gmail.com\",\n  \"numberPhone\":\"123456789\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ab80bee3-24ae-4f52-a0fa-637eab2a37b9",
+            "colId": "240a4cd5-9a1a-4a86-add6-3c52e71bada2",
+            "containerId": "",
+            "name": "Eliminar Usuario",
+            "url": "http://localhost:8080/usuarios/5beacc29-48be-414b-bbab-d37e52e044c3",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-07-04T03:01:11.937Z",
+            "modified": "2023-07-05T04:01:05.858Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
